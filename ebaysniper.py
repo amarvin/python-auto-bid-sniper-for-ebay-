@@ -11,7 +11,7 @@ itemidurl = "the whole url of the item you want to bid on"
 maxbidebay = "you max bid amount with no doolar sign example 1.50"
 timetobidmins = 5 # change this to the time in mins to bid
 sedbid = timetobidmins * 60
-print sedbid
+print(sedbid)
 time.sleep(sedbid)
 driver = webdriver.Firefox()
 driver.get('https://www.ebay.com')
